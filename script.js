@@ -16,7 +16,7 @@ const projects = [
     {
         title: "Qr code based food order system",
         description: "This is a modern and visually appealing website designed to food order from scanning qr code. Built using HTML, CSS, and JavaScript for front-end and node.js, mysql for backend. the website provides a seamless user experience with responsive design, payment system, and food ordering system.",
-        image: "photos/food.jpg"
+        image: "photos/order.jpg"
     },
     {
         title: "chess game",
