@@ -10,8 +10,13 @@
 const projects = [
     {
         title: "OmKaran Furniture",
-        description: "This is a modern and visually appealing website designed to showcase furniture collections. Built using HTML, CSS, and JavaScript, the website provides a seamless user experience with responsive design, intuitive navigation, and interactive elements.",
+        description: "This is a modern and visually appealing website designed to showcase furniture collections. Built using HTML, CSS, and JavaScriptfor front-end and node.js, mysql for backend. the website provides a seamless user experience with responsive design, intuitive navigation, and interactive elements.",
         image: "photos/swing.jpg"
+    },
+    {
+        title: "Qr code based food order system",
+        description: "This is a modern and visually appealing website designed to food order from scanning qr code. Built using HTML, CSS, and JavaScript for front-end and node.js, mysql for backend. the website provides a seamless user experience with responsive design, payment system, and food ordering system.",
+        image: "photos/food.jpg"
     },
     {
         title: "chess game",
