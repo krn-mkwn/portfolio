@@ -318,21 +318,30 @@
     <section id="contact" class="py-5">
         <div class="container text-center" data-aos="fade-up">
             <h2>Contact Me</h2>
-            <form class="mt-4" id="contactForm">
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+             <form action="https://api.web3forms.com/submit" method="POST" id="contact Form" class="mt-4">
+
+                <!-- Replace with your Access Key -->
+                <input type="hidden" class="contact-info" name="access_key" value="36b03d23-ba46-4def-9b21-2d7e0562acc7">
+            
+                <!-- Form Inputs. Each input must have a name="" attribute -->
+                 <div class="mb-3">               
+                     <input type="text" class="form-control" name="name" required placeholder="name">
+                 </div>
+                 <div class="mb-3">              
+                      <input type="email" name="email" required class="form-control"  placeholder="email">
                 </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                </div>
-                <div class="mb-3">
-                    <input type="subject" class="form-control" id="subject" placeholder="subject" required>
-                </div>
-                <div class="mb-3">
-                    <textarea class="form-control" rows="5" id="Message" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-               
+                 <div class="mb-3">
+                    <textarea name="message" required class="form-control" placeholder="message" ></textarea>
+                 </div>
+            
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            
+                <!-- Custom Confirmation / Success Page -->
+                <input type="hidden" name="redirect" href="#Success">
+            
+                <button type="submit" class="btn btn-primary">Submit Form</button>
+            
             </form>
             <div class="alert alert-success success-message">Your message has been sent successfully!</div>
             <div class="alert alert-danger error-message">There was an error sending your message. Please try again.</div>
