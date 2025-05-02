@@ -21,7 +21,7 @@ const projects = [
     {
         title: "Excel analysis platform",
         description: "A powerful MERN-stack platform for uploading Excel files (.xls/.xlsx), analyzing data, and generating interactive 2D/3D charts. Users can select X/Y axes, choose chart types, and download graphs. Upload and analysis history is saved in user dashboards. Admins can manage users and data usage. Optional AI integration offers smart insights and summary reports.",
-        image: "photos/excell.jpg"
+        image: "photos/excell.png"
     },
     {
         title: "chess game",
