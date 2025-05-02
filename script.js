@@ -19,6 +19,11 @@ const projects = [
         image: "photos/order.jpg"
     },
     {
+        title: "Excel analysis platform",
+        description: "A powerful MERN-stack platform for uploading Excel files (.xls/.xlsx), analyzing data, and generating interactive 2D/3D charts. Users can select X/Y axes, choose chart types, and download graphs. Upload and analysis history is saved in user dashboards. Admins can manage users and data usage. Optional AI integration offers smart insights and summary reports.",
+        image: "photos/excell.jpg"
+    },
+    {
         title: "chess game",
         description: "This is a fully functional chess game developed using EJS, JavaScript, and Node.js. The application combines a sleek user interface with robust back-end logic, providing an engaging and seamless chess-playing experience.",
         image: "photos/chess.png"
