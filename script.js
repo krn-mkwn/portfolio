@@ -19,6 +19,11 @@ const projects = [
         image: "photos/order.jpg"
     },
     {
+        title: "Blog-Platform",
+        description: "I developed a full-featured blogging platform using the MERN stack. It includes JWT-based user authentication, blog creation with a rich text editor, comments and likes system, search and category filters, user profiles, and an admin dashboard. Technologies used: React, Redux, Node.js, Express, MongoDB, Tailwind CSS, Cloudinary, and Postman.",
+        image: "photos/blogging.jpg"
+    },
+    {
         title: "Excel analysis platform",
         description: "A powerful MERN-stack platform for uploading Excel files (.xls/.xlsx), analyzing data, and generating interactive 2D/3D charts. Users can select X/Y axes, choose chart types, and download graphs. Upload and analysis history is saved in user dashboards. Admins can manage users and data usage. Optional AI integration offers smart insights and summary reports.",
         image: "photos/excell.png"
